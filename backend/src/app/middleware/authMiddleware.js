@@ -1,5 +1,6 @@
 import jwt from "jsonwebtoken";
 import User from "../models/User.js";
+
 const authMiddleware =  (req, res , next) => {
     try{
         //lấy token từ header

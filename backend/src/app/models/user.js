@@ -42,6 +42,6 @@ const UserSchema = new mongoose.Schema({
 },{
     timestamps: true,
 });
-
+//sửa tên file
 const User = mongoose.model("User", UserSchema);
 export default User;
